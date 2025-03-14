@@ -3,7 +3,7 @@
 import sys, os, posixpath
 from glob import glob
 import subprocess
-import opkg
+from . import opkg
 import getopt
 import re
 
